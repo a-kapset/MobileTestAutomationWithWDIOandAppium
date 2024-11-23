@@ -55,7 +55,7 @@ export const config = {
       // capabilities for local Appium web tests on an Android Emulator
       platformName: 'Android',
       'appium:deviceName': 'emulator-5554',
-      'appium:platformVersion': '12.0',
+      'appium:platformVersion': '10.0',
       'appium:automationName': 'UiAutomator2',
       'appium:app': path.join(process.cwd(), './app/android/ApiDemos-debug.apk'),
     },
