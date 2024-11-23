@@ -1,6 +1,9 @@
 {
   "name": "appium_wdio",
   "type": "module",
+  "scripts": {
+    "test": "npx wdio"
+  },
   "devDependencies": {
     "@wdio/appium-service": "latest",
     "@wdio/cli": "latest",
