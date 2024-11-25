@@ -57,7 +57,9 @@ export const config = {
       'appium:deviceName': 'emulator-5554',
       'appium:platformVersion': '10.0',
       'appium:automationName': 'UiAutomator2',
-      'appium:app': path.join(process.cwd(), './app/android/ApiDemos-debug.apk'),
+      'appium:app': path.join(process.cwd(), './app/android/ColorNote-Notepad.apk'),
+      // 'appium:app': path.join(process.cwd(), './app/android/ApiDemos-debug.apk'),
+      'appium:autoGrandPermissions': true,
     },
   ],
 
