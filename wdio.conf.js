@@ -23,7 +23,7 @@ export const config = {
   // The path of the spec files will be resolved relative from the directory of
   // of the config file unless it's absolute.
   //
-  specs: ['./test/specs/**/*.js'],
+  specs: ['./test/specs/android-real-app.spec.js'],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
@@ -59,7 +59,7 @@ export const config = {
       'appium:automationName': 'UiAutomator2',
       'appium:app': path.join(process.cwd(), './app/android/ColorNote-Notepad.apk'),
       // 'appium:app': path.join(process.cwd(), './app/android/ApiDemos-debug.apk'),
-      'appium:autoGrandPermissions': true,
+      'appium:autoGrantPermissions': true,
     },
   ],
 
