@@ -2,15 +2,18 @@
   "name": "appium_wdio",
   "type": "module",
   "scripts": {
-    "test": "npx wdio"
+    "test": "npx wdio",
+    "test_bs": "npx wdio wdio.browserstack.conf.js"
   },
   "devDependencies": {
     "@wdio/appium-service": "latest",
+    "@wdio/browserstack-service": "^9.4.0",
     "@wdio/cli": "latest",
     "@wdio/local-runner": "latest",
     "@wdio/mocha-framework": "latest",
     "@wdio/spec-reporter": "latest",
     "appium": "latest",
-    "appium-uiautomator2-driver": "latest"
+    "appium-uiautomator2-driver": "latest",
+    "dotenv": "^16.4.5"
   }
 }
