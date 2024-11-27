@@ -1,7 +1,8 @@
-Test automation framework for mobile apps (Android & IOS)
+Test automation framework for mobile apps
 
 Stack:
 
 - JavaScript
 - WebdriverIO
 - Appium
+- BrowserStack
